@@ -1,0 +1,180 @@
+body{
+    background-color:#eeebe8;
+}
+
+button{
+    border:none;
+    border-radius:3px;
+    padding:15px;
+}
+
+.brown a:link, .brown a:visited, .brown a:hover, .brown a:active{
+    text-decoration:none;
+    color:#5d1b0e;
+    transition:opacity 0.5s;
+}
+
+.brown a:hover{
+    opacity:0.6;
+}
+
+.collage-banner{
+    height:350px;
+    background-image:url("../img/collage.jpg");
+    background-size:650px auto;
+    box-shadow: inset 0 0 8px 4px #ff5500;
+    overflow:hidden;
+}
+
+.flower{
+    position:absolute;
+    background-size:contain;
+    background-repeat:no-repeat;
+    width:150px;
+    height:135px;
+    z-index:1;
+}
+
+.f1{
+    background-image:url("../img/flower-1.png");
+    bottom:-120px;
+    left:-100px;
+    transform:rotate(115deg);
+    z-index:2;
+}
+
+.f2{
+    background-image:url("../img/flower-2.png");
+    bottom:-100px;
+    left:-120px;
+    transform:rotate(115deg);
+}
+
+.f3{
+    background-image:url("../img/flower-3.png");
+    bottom:-100px;
+    right:-80px;
+    transform:rotate(-105deg);
+    width:130px;
+}
+
+.vertical-center{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+
+.contained{
+    max-width:100%;
+}
+
+h1.vertical-center, h2.vertical-center, h3.vertical-center, h4.vertical-center, h5.vertical-center, h6.vertical-center, p.vertical-center, .no-margin{
+    margin: 0;
+}
+
+.berkshire{
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.merriweather{
+    font-family: 'Merriweather', serif;
+}
+
+.brown{
+    color:#5d1b0e;
+}
+
+.brown-bg{
+    color:#e5e0db;
+    background-color:#5d1b0e;
+}
+
+.big{
+    font-size:6em;
+}
+
+.medium{
+    font-size:3.5em;
+}
+
+button.medium{
+    font-size:1.3em;
+}
+
+p.medium{
+    font-size:1em;
+}
+
+.horiz-padding{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.vert-padding{
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+.white-panel{
+    background-color:rgba(255,255,255,0.6);
+    padding:30px;
+    border-bottom:1px solid #e5e0db;
+    border-left:1px solid #e9e4df;
+    border-right:1px solid #e9e4df;
+}
+
+.footer{
+    border-top:1px solid #e5e0db;
+    background-color:rgba(255,255,255,0.6);
+}
+
+.slideLeft{
+    -webkit-animation-name: slide;
+    -webkit-animation-duration: 25000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name:slide;
+    -moz-animation-duration: 25000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: slide;
+    -ms-animation-duration: 25000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: slide;
+    animation-duration: 25000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes slide{
+    from{ background-position:top right; }
+    to{ background-position:top left; }
+}
+@-ms-keyframes slide{
+    from{ background-position:top right; }
+    to{ background-position:top left; }
+}
+@-moz-keyframes slide{
+    from{ background-position:top right; }
+    to{ background-position:top left; }
+}
+@-webkit-keyframes slide{
+    from{ background-position:top right; }
+    to{ background-position:top left; }
+}
+
+@media (max-width:650px) {
+    .big{
+        font-size:3.5em;
+    }
+    .medium{
+        font-size:2.5em;
+    }
+    .collage-banner{
+        height:250px;
+    }
+}
