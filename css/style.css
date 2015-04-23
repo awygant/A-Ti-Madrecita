@@ -6,6 +6,11 @@ button{
     border:none;
     border-radius:3px;
     padding:15px;
+    transition:box-shadow 0.5s;
+}
+
+button:hover{
+    box-shadow: 0 0 8px #ff5500;
 }
 
 .brown a:link, .brown a:visited, .brown a:hover, .brown a:active{

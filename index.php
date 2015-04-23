@@ -23,13 +23,14 @@
             </div>
             <div class = "col-sm-6 merriweather brown">
                 <div class = "white-panel">
-                    <p class = "medium">&iexcl;Hola, amigos! Pedimos fotos de su madrecita para usar en nuestro video especial.</p>
+                    <h3 class = "berkshire brown">&iexcl;Hola, amigos!</h3>
+                    <p class = "medium">Pedimos fotos con su madrecita para usar en nuestro video especial.</p>
                     <p class = "medium">Entregue sus fotos con mamá hasta este domingo y los usamos en nuestro video especial para todas las mamás.</p>
                     <!-- TODO: TRANSLATE HERE -->
                     <p class = "medium">1. Create an Account</p>
                     <p class = "medium">2. Entregue sus fotos</p>
                     <p class = "medium">3. Comparta</p>
-                    <button class = "brown-bg berkshire medium">&iexcl;Empiece!</button>
+                    <button class = "brown-bg berkshire medium" onclick = "window.location.href = 'http://events.fotam.com/photos/upload/12'">&iexcl;Empiece!</button>
                     <div class = "vert-padding">
                         <p>Y compre <i>A Ti Madrecita</i> aquí:</p>
                         <!-- TODO: FILL IN THESE LINKS -->
