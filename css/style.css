@@ -1,5 +1,5 @@
 body{
-    background-color:#eeebe8;
+    background-color:#101b35;
 }
 
 button{
@@ -23,15 +23,40 @@ button:hover{
     opacity:0.6;
 }
 
-.collage-banner{
-    height:350px;
-    background-image:url("../img/collage.jpg");
-    background-size:650px auto;
-    box-shadow: inset 0 0 8px 4px #ff5500;
-    overflow:hidden;
+.oswald{
+    font-family:'Oswald', sans-serif;
 }
 
-.flower{
+.white{
+    color:#fff;
+}
+
+.yellow{
+    color:#ffaa00;
+}
+
+.blue{
+    color:#0a235d;
+}
+
+.shadow{
+    text-shadow: 2px 2px 5px #000;
+}
+
+.collage-banner{
+    height:350px;
+    background-image:url("../img/padre-collage.jpg");
+    background-size:650px auto;
+    box-shadow: inset 0 0 8px 4px #0a235d;
+    overflow:hidden;
+    position:relative;
+}
+
+.headerText{
+    z-index:2;
+}
+
+.flower, .jefe{
     position:absolute;
     background-size:contain;
     background-repeat:no-repeat;
@@ -61,6 +86,28 @@ button:hover{
     right:-80px;
     transform:rotate(-105deg);
     width:130px;
+}
+
+.jefe{
+    background-image:url("../img/jefes-graphic.png");
+}
+
+.jefe-left{
+    bottom:-6px;
+    left:6px;
+    -moz-transform:rotate(-10deg);
+    -o-transform:rotate(-10deg);
+    -webkit-transform:rotate(-10deg);
+    transform:rotate(-10deg);
+}
+
+.jefe-right{
+    bottom:-6px;
+    right:6px;
+    -moz-transform: scaleX(-1) rotate(-10deg);
+    -o-transform: scaleX(-1) rotate(-10deg);
+    -webkit-transform: scaleX(-1) rotate(-10deg);
+    transform: scaleX(-1) rotate(-10deg);
 }
 
 .vertical-center{
@@ -96,8 +143,21 @@ h1.vertical-center, h2.vertical-center, h3.vertical-center, h4.vertical-center, 
     background-color:#5d1b0e;
 }
 
+.blue-bg{
+    color:#fff;
+    background-color:#0a235d;
+}
+
 .big{
     font-size:6em;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.spacey{
+    letter-spacing:4px;
 }
 
 .medium{
@@ -123,7 +183,7 @@ p.medium{
 }
 
 .white-panel{
-    background-color:rgba(255,255,255,0.6);
+    background-color:rgba(255,255,255,1);
     padding:30px;
     border-bottom:1px solid #e5e0db;
     border-left:1px solid #e9e4df;
@@ -181,5 +241,9 @@ p.medium{
     }
     .collage-banner{
         height:250px;
+    }
+    .jefe{
+        width:75px;
+        background-position:bottom center;
     }
 }

@@ -2,6 +2,7 @@
 
 <link href='http://fonts.googleapis.com/css?family=Berkshire+Swash' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Merriweather:400,400italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
 <link href = "css/bootstrap.min.css" rel="stylesheet">
 <link href = "css/style.css" rel="stylesheet">
 

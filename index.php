@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>A Ti Madrecita</title>
+    <title>Día del Padre con Los Tigres del Norte</title>
     <?php include ("includes/resources.php") ?>
 </head>
 <body>
@@ -17,42 +17,37 @@
 
 </script>
     <div class = "container-fluid text-center collage-banner slideLeft">
-        <div class = "container text-center vertical-center">
-            <h1 class = "berkshire big brown">&iexcl;Los Tigres del Norte Quieren Sus Fotos!</h1>
-            <div class = "flower f1"></div>
-            <div class = "flower f2"></div>
-            <div class = "flower f3"></div>
+        <div class = "container text-center vertical-center headerText">
+            <h1 class = "oswald big white uppercase yellow shadow">Los Tigres del Norte Quieren Tus Fotos</h1>
         </div>
+        <div class = "jefe jefe-left"></div>
+        <div class = "jefe jefe-right"></div>
     </div>
     <div class = "container text-center">
-        <div class = "row text-left vert-padding">
+        <div class = "row text-left">
             <div class = "col-sm-6">
                 <div>
-                    <h2 class = "berkshire medium brown no-margin horiz-padding vert-padding">Estamos creando un video especial para todas las madrecitas. &iexcl;Necesitamos su ayuda!</h2>
+                    <h2 class = "oswald white no-margin horiz-padding vert-padding">Estamos creando un vídeo muy especial para todos los padres. ¡Necesitamos de tu ayuda!</h2>
                 </div>
             </div>
-            <div class = "col-sm-6 merriweather brown">
+            <div class = "col-sm-6 merriweather blue">
                 <div class = "white-panel">
-                    <h3 class = "berkshire brown">&iexcl;Hola, amigos!</h3>
-                    <p class = "medium">Pedimos fotos con su madrecita para usar en nuestro video especial.</p>
-                    <p class = "medium">Entregue sus fotos con mamá hasta este domingo y los usamos en nuestro video especial para todas las mamás.</p>
-                    <!-- TODO: TRANSLATE HERE -->
-                    <p class = "medium">1. Create an Account</p>
-                    <p class = "medium">2. Entregue sus fotos</p>
-                    <p class = "medium">3. Comparta</p>
-                    <button class = "brown-bg berkshire medium" onclick = "window.location.href = 'http://events.fotam.com/photos/upload/12'">&iexcl;Empiece!</button>
+                    <h3 class = "oswald">&iexcl;Hola, amigos!</h3>
+                    <p class = "medium">Les estamos pidiendo fotos con sus padres, para ser parte de nuestro video especial por este día. </p>
+                    <p class = "medium">Mande sus fotos en este link, registrándose para ser parte de este regalo excepcional junto con nosotros, sus amigos Los Tigres del Norte</p>
+                    <button class = "blue-bg oswald medium" onclick = "window.location.href = 'http://events.fotam.com/photos/upload/12'">&iexcl;Comienza!</button>
                     <div class = "vert-padding">
-                        <p>Y compre <i>A Ti Madrecita</i> aquí:</p>
+                        <p>Y compre <i>Jefe de Jefes</i> aquí:</p>
                         <!-- TODO: FILL IN THESE LINKS -->
-                        <p><a href = "" target = "_blank">iTunes</a> | <a href = "" target = "_blank">Amazon</a></p>
-                        <p><img class = "contained" width = "300" src = "img/madrecita-album.jpeg" alt = "A Ti Madrecita"/></p>
+                        <p><a href = "http://bit.ly/jefesitunes" target = "_blank">iTunes</a> | <a href = "http://bit.ly/jefesamazon" target = "_blank">Amazon</a></p>
+                        <p><a href = "http://bit.ly/jefesitunes" target = "_blank"><img class = "contained" width = "300" src = "img/jefe-de-jefes-album.png" alt = "Jefe de Jefes"/></a></p>
                     </div>
 
                 </div>
             </div>
         </div>
     </div>
-    <div class = "footer text-center vert-padding berkshire brown">
+    <div class = "footer text-center vert-padding oswald blue">
         <a href = "http://www.lostigresdelnorte.com" target = "_blank">Los Tigres del Norte</a> |
         <a href = "http://www.fotam.com" target = "_blank">Fotam</a>
     </div>
