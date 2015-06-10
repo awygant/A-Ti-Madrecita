@@ -35,10 +35,9 @@
                     <h3 class = "oswald">&iexcl;Hola, amigos!</h3>
                     <p class = "medium">Les estamos pidiendo fotos con sus padres, para ser parte de nuestro video especial por este día. </p>
                     <p class = "medium">Mande sus fotos en este link, registrándose para ser parte de este regalo excepcional junto con nosotros, sus amigos Los Tigres del Norte</p>
-                    <button class = "blue-bg oswald medium" onclick = "window.location.href = 'http://events.fotam.com/photos/upload/12'">&iexcl;Comienza!</button>
+                    <button class = "blue-bg oswald medium" onclick = "window.location.href = 'http://events.fotam.com/photos/upload/28'">&iexcl;Comienza!</button>
                     <div class = "vert-padding">
                         <p>Y compre <i>Jefe de Jefes</i> aquí:</p>
-                        <!-- TODO: FILL IN THESE LINKS -->
                         <p><a href = "http://bit.ly/jefesitunes" target = "_blank">iTunes</a> | <a href = "http://bit.ly/jefesamazon" target = "_blank">Amazon</a></p>
                         <p><a href = "http://bit.ly/jefesitunes" target = "_blank"><img class = "contained" width = "300" src = "img/jefe-de-jefes-album.png" alt = "Jefe de Jefes"/></a></p>
                     </div>
